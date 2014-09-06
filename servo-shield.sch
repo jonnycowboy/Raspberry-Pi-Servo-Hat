@@ -14165,7 +14165,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="P+6" library="supply1" deviceset="V+" device=""/>
 <part name="P+7" library="supply1" deviceset="V+" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="L2" library="WE-PD" deviceset="WE-PD" device="_1260/1245/1280/1210" technology="-744770133" value="33uh"/>
+<part name="L1" library="WE-PD" deviceset="WE-PD" device="_1260/1245/1280/1210" technology="-744770133" value="33uh"/>
 <part name="C2" library="rcl" deviceset="CPOL-EU" device="E3.5-8" value="1000uf"/>
 <part name="C3" library="rcl" deviceset="CPOL-EU" device="E3.5-8" value="1000uf"/>
 <part name="C5" library="rcl" deviceset="C-EU" device="025-030X050" value="100nf"/>
@@ -14231,7 +14231,7 @@ DIN A4, landscape with extra doc field</description>
 <instance part="P+6" gate="1" x="114.3" y="27.94"/>
 <instance part="P+7" gate="1" x="93.98" y="177.8"/>
 <instance part="GND11" gate="1" x="93.98" y="149.86"/>
-<instance part="L2" gate="G$1" x="154.94" y="170.18"/>
+<instance part="L1" gate="G$1" x="154.94" y="170.18"/>
 <instance part="C2" gate="G$1" x="167.64" y="162.56"/>
 <instance part="C3" gate="G$1" x="106.68" y="17.78"/>
 <instance part="C5" gate="G$1" x="119.38" y="17.78"/>
@@ -14517,7 +14517,7 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="160.02" y1="170.18" x2="167.64" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="165.1" x2="167.64" y2="170.18" width="0.1524" layer="91"/>
 <junction x="167.64" y="170.18"/>
-<pinref part="L2" gate="G$1" pin="2"/>
+<pinref part="L1" gate="G$1" pin="2"/>
 <pinref part="C2" gate="G$1" pin="+"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="167.64" y1="170.18" x2="182.88" y2="170.18" width="0.1524" layer="91"/>
@@ -14929,7 +14929,7 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="144.78" y1="170.18" x2="144.78" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 <junction x="144.78" y="170.18"/>
-<pinref part="L2" gate="G$1" pin="1"/>
+<pinref part="L1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$4" class="0">

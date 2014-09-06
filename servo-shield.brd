@@ -2099,51 +2099,83 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="18.27748125" y="34.935634375" size="1.27" layer="25" ratio="10" rot="R10"/>
 <attribute name="VALUE" x="18.667346875" y="34.553021875" size="1.27" layer="27" ratio="10" rot="R10"/>
 </element>
-<element name="L2" library="WE-PD" package="WE-PD_1260/1245/1280/1210" value="33uh" x="7.3025" y="24.765">
+<element name="L1" library="WE-PD" package="WE-PD_1260/1245/1280/1210" value="33uh" x="7.3025" y="24.765" smashed="yes">
 <attribute name="PACKAGE" value="1280" x="7.3025" y="24.765" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="88T7068" x="7.3025" y="24.765" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="744770133" x="7.3025" y="24.765" size="1.778" layer="27" display="off"/>
 <attribute name="SUPPLIER" value="Wuerth Elektronik" x="7.3025" y="24.765" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="2082596" x="7.3025" y="24.765" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="9.00875" y="18.5975" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="1.4925" y="32.115" size="1.27" layer="27"/>
 </element>
-<element name="C2" library="rcl" package="E3,5-8" value="1000uf" x="18.415" y="20.955"/>
-<element name="C3" library="rcl" package="E3,5-8" value="1000uf" x="55.5625" y="13.81125" rot="R180"/>
-<element name="C5" library="rcl" package="C025-030X050" value="100nf" x="57.785" y="7.9375" rot="R180"/>
-<element name="C7" library="rcl" package="C025-030X050" value="100nf" x="18.415" y="26.82875"/>
-<element name="C1" library="rcl" package="E3,5-8" value="1000uf" x="22.86" y="44.7675" rot="R90"/>
-<element name="C8" library="rcl" package="C025-030X050" value="100nf" x="36.98875" y="17.78" rot="R270"/>
-<element name="RN1" library="resistor-dil" package="EXB38V" value="" x="48.5775" y="12.7" rot="R180">
+<element name="C2" library="rcl" package="E3,5-8" value="1000uf" x="18.415" y="20.955" smashed="yes">
+<attribute name="NAME" x="15.14475" y="16.16075" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="16.129" y="17.907" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="C3" library="rcl" package="E3,5-8" value="1000uf" x="55.5625" y="13.81125" smashed="yes" rot="R180">
+<attribute name="NAME" x="58.8645" y="10.25525" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="57.8485" y="16.85925" size="1.27" layer="27" ratio="10" rot="R180"/>
+</element>
+<element name="C5" library="rcl" package="C025-030X050" value="100nf" x="57.785" y="7.9375" smashed="yes" rot="R180">
+<attribute name="NAME" x="60.42025" y="7.9375" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="60.071" y="10.9855" size="1.27" layer="27" ratio="10" rot="R180"/>
+</element>
+<element name="C7" library="rcl" package="C025-030X050" value="100nf" x="18.415" y="26.82875" smashed="yes">
+<attribute name="NAME" x="15.875" y="25.9715" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="16.129" y="23.78075" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="C1" library="rcl" package="E3,5-8" value="1000uf" x="22.86" y="44.7675" smashed="yes" rot="R90">
+<attribute name="NAME" x="19.71675" y="42.13225" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="25.908" y="42.4815" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="C8" library="rcl" package="C025-030X050" value="100nf" x="36.98875" y="17.78" smashed="yes" rot="R270">
+<attribute name="NAME" x="38.89375" y="20.066" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="33.94075" y="20.066" size="1.27" layer="27" ratio="10" rot="R270"/>
+</element>
+<element name="RN1" library="resistor-dil" package="EXB38V" value="" x="48.5775" y="12.7" smashed="yes" rot="R180">
 <attribute name="OC_NEWARK" value="unknown" x="48.5775" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="48.5775" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="48.5775" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="48.5775" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="50.55" y="15.24" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="RN2" library="resistor-dil" package="EXB38V" value="" x="44.45" y="12.7" rot="R180">
+<element name="RN2" library="resistor-dil" package="EXB38V" value="" x="44.45" y="12.7" smashed="yes" rot="R180">
 <attribute name="OC_NEWARK" value="unknown" x="44.45" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="44.45" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="44.45" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="44.45" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="46.4225" y="15.24" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="RN3" library="resistor-dil" package="EXB38V" value="" x="18.7325" y="12.7" rot="R180">
+<element name="RN3" library="resistor-dil" package="EXB38V" value="" x="18.7325" y="12.7" smashed="yes" rot="R180">
 <attribute name="OC_NEWARK" value="unknown" x="18.7325" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="18.7325" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="18.7325" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="18.7325" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="20.705" y="15.24" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="RN4" library="resistor-dil" package="EXB38V" value="" x="14.605" y="12.7" rot="R180">
+<element name="RN4" library="resistor-dil" package="EXB38V" value="" x="14.605" y="12.7" smashed="yes" rot="R180">
 <attribute name="OC_NEWARK" value="unknown" x="14.605" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="14.605" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="14.605" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="14.605" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="16.5775" y="15.24" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="PWR" library="con-molex" package="7395-02" value="22-05-7028-02" x="13.335" y="46.355" rot="R270">
+<element name="PWR" library="con-molex" package="7395-02" value="22-05-7028-02" x="13.335" y="46.355" smashed="yes" rot="R270">
 <attribute name="OC_NEWARK" value="unknown" x="13.335" y="46.355" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="13.335" y="46.355" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="13.335" y="46.355" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="9731601" x="13.335" y="46.355" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="3.55115" y="48.32835" size="1.016" layer="25" ratio="10"/>
+<attribute name="VALUE" x="10.8951" y="42.9529" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="C4" library="rcl" package="E3,5-8" value="1000uf" x="4.7625" y="10.795" rot="R90"/>
-<element name="C6" library="rcl" package="C025-030X050" value="100nf" x="10.795" y="12.065" rot="R90"/>
+<element name="C4" library="rcl" package="E3,5-8" value="1000uf" x="4.7625" y="10.795" smashed="yes" rot="R90">
+<attribute name="NAME" x="6.31825" y="14.5415" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="7.8105" y="8.509" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="C6" library="rcl" package="C025-030X050" value="100nf" x="10.795" y="12.065" smashed="yes" rot="R90">
+<attribute name="NAME" x="9.62025" y="14.605" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="13.843" y="9.779" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
 </elements>
 <signals>
 <signal name="S$28">
@@ -2261,7 +2293,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="K1" pad="2"/>
 <contactref element="K1" pad="4"/>
 <contactref element="IC2" pad="4"/>
-<contactref element="L2" pad="2"/>
+<contactref element="L1" pad="2"/>
 <contactref element="C2" pad="+"/>
 <contactref element="C7" pad="1"/>
 <wire x1="16.637" y1="20.955" x2="17.145" y2="21.1455" width="1.016" layer="1" curve="90"/>
@@ -2671,7 +2703,7 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="VOUT">
 <contactref element="IC2" pad="2"/>
 <contactref element="D1" pad="C"/>
-<contactref element="L2" pad="1"/>
+<contactref element="L1" pad="1"/>
 <wire x1="14.0462" y1="35.4457" x2="15.875" y2="35.4457" width="1.016" layer="1"/>
 <wire x1="15.875" y1="35.4457" x2="15.875" y2="32.385" width="1.016" layer="1"/>
 <wire x1="15.875" y1="32.385" x2="14.12875" y2="29.05125" width="1.016" layer="1" curve="-55.291954"/>
