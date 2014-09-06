@@ -2669,9 +2669,9 @@ Please make sure your boards conform to these design rules.</description>
 <element name="IC2" library="linear" package="TO263-5" value="" x="8.255" y="32.86125" smashed="yes" rot="R90">
 <attribute name="VALUE" x="13.843" y="39.71925" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="D1" library="diode" package="DO41-7.6" value="1N5824" x="19.05" y="33.655" smashed="yes" rot="R45">
-<attribute name="NAME" x="19.1398" y="30.242496875" size="1.27" layer="25" ratio="10" rot="R45"/>
-<attribute name="VALUE" x="19.67861875" y="30.152696875" size="1.27" layer="27" ratio="10" rot="R45"/>
+<element name="D1" library="diode" package="DO41-7.6" value="1N5824" x="18.25625" y="34.44875" smashed="yes" rot="R60">
+<attribute name="NAME" x="19.226209375" y="31.175765625" size="1.27" layer="25" ratio="10" rot="R60"/>
+<attribute name="VALUE" x="19.769909375" y="31.22848125" size="1.27" layer="27" ratio="10" rot="R60"/>
 </element>
 <element name="L1" library="WE-PD" package="WE-PD_1260/1245/1280/1210" value="33uh" x="7.3025" y="21.2725" smashed="yes">
 <attribute name="PACKAGE" value="1280" x="7.3025" y="21.2725" size="1.778" layer="27" display="off"/>
@@ -2887,11 +2887,11 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="17.145" y1="21.1455" x2="17.145" y2="24.765" width="1.016" layer="1"/>
 <wire x1="17.145" y1="24.765" x2="17.145" y2="26.82875" width="1.016" layer="1"/>
 <wire x1="12.2525" y1="21.2725" x2="17.145" y2="24.765" width="1.016" layer="1"/>
-<wire x1="16.03375" y1="34.56305" x2="16.03375" y2="32.4993" width="1.016" layer="1"/>
-<wire x1="16.03375" y1="32.4993" x2="16.55445" y2="32.4993" width="1.016" layer="1"/>
-<wire x1="16.55445" y1="32.4993" x2="17.93875" y2="30.95625" width="1.016" layer="1" curve="-90"/>
-<wire x1="17.93875" y1="30.95625" x2="17.145" y2="29.5275" width="1.016" layer="1" curve="-61.927542"/>
-<wire x1="17.145" y1="29.5275" x2="17.145" y2="26.82875" width="1.016" layer="1"/>
+<wire x1="16.03375" y1="34.56305" x2="16.03375" y2="32.8168" width="1.016" layer="1"/>
+<wire x1="16.03375" y1="32.8168" x2="16.55445" y2="32.8168" width="1.016" layer="1"/>
+<wire x1="16.55445" y1="32.8168" x2="17.93875" y2="30.95625" width="1.016" layer="1" curve="-90"/>
+<wire x1="17.93875" y1="30.95625" x2="17.145" y2="29.68625" width="1.016" layer="1" curve="-61.927542"/>
+<wire x1="17.145" y1="29.68625" x2="17.145" y2="26.82875" width="1.016" layer="1"/>
 <contactref element="USE_REG" pad="1"/>
 <wire x1="14.0462" y1="34.56305" x2="16.03375" y2="34.56305" width="1.016" layer="1"/>
 <wire x1="16.03375" y1="34.56305" x2="16.03375" y2="45.085" width="1.016" layer="1"/>
@@ -3271,9 +3271,9 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="8.09625" y1="23.33625" x2="10.4775" y2="24.765" width="1.016" layer="1" curve="-31.787271"/>
 <wire x1="10.4775" y1="24.765" x2="15.24" y2="27.78125" width="1.016" layer="1" curve="34.554646"/>
 <wire x1="15.24" y1="27.78125" x2="15.875" y2="29.36875" width="1.016" layer="1" curve="37.147686"/>
-<wire x1="15.875" y1="29.36875" x2="16.355921875" y2="30.960921875" width="1.016" layer="1" curve="-27.159354"/>
-<wire x1="14.0462" y1="31.15945" x2="14.605" y2="31.115" width="1.016" layer="1"/>
-<wire x1="14.605" y1="31.115" x2="16.355921875" y2="30.960921875" width="1.016" layer="1" curve="-0.961869"/>
+<wire x1="15.875" y1="29.36875" x2="16.35125" y2="31.149190625" width="1.016" layer="1" curve="-27.159354"/>
+<wire x1="16.35125" y1="31.149190625" x2="14.0462" y2="31.149190625" width="1.016" layer="1"/>
+<wire x1="14.0462" y1="31.149190625" x2="14.0462" y2="31.15945" width="1.016" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="U1" pad="24"/>
