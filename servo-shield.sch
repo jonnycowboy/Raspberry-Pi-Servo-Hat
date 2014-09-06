@@ -14247,6 +14247,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="C6" library="rcl" deviceset="C-EU" device="025-030X050" value="100nf"/>
 <part name="FRAME1" library="frames" deviceset="DINA4_L" device=""/>
 <part name="USE_REG" library="jumper" deviceset="JP1E" device=""/>
+<part name="PASS" library="con-molex" deviceset="22-?-02" device="05-7028"/>
 </parts>
 <sheets>
 <sheet>
@@ -14330,6 +14331,10 @@ DIN A4, landscape with extra doc field</description>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="0" y="0"/>
 <instance part="USE_REG" gate="A" x="66.04" y="170.18" rot="R270"/>
+<instance part="PASS" gate="-1" x="86.36" y="167.64" smashed="yes" rot="R180">
+<attribute name="NAME" x="83.82" y="168.402" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="PASS" gate="-2" x="86.36" y="160.02" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -14502,9 +14507,13 @@ DIN A4, landscape with extra doc field</description>
 </segment>
 <segment>
 <wire x1="88.9" y1="162.56" x2="93.98" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="162.56" x2="93.98" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="162.56" x2="93.98" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <pinref part="PWR" gate="-2" pin="S"/>
+<wire x1="93.98" y1="160.02" x2="93.98" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="160.02" x2="93.98" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="PASS" gate="-2" pin="S"/>
+<junction x="93.98" y="160.02"/>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
@@ -14969,6 +14978,10 @@ DIN A4, landscape with extra doc field</description>
 <pinref part="P+7" gate="1" pin="V+"/>
 <wire x1="93.98" y1="170.18" x2="93.98" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="PWR" gate="-1" pin="S"/>
+<junction x="93.98" y="170.18"/>
+<wire x1="88.9" y1="167.64" x2="93.98" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="PASS" gate="-1" pin="S"/>
+<wire x1="93.98" y1="167.64" x2="93.98" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+8" gate="1" pin="V+"/>
